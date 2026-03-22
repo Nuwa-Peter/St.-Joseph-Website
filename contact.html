@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - St Joseph's Vocational Secondary School</title>
+    <link rel="icon" type="image/png" href="gallery/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="gallery/logo.png" alt="School Logo" class="logo">
+                <div class="school-info">
+                    <h1>St Joseph's Vocational<br>Secondary School</h1>
+                    <p>Without Jesus, what can the world give you?</p>
+                </div>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for inquiries and information</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-block">
+                        <h3>Physical Address</h3>
+                        <p>St Joseph's Vocational Secondary School</p>
+                        <p>Nyamityobora, Uganda</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>Main Office</h3>
+                        <p><strong>Phone:</strong> +256 704 050 747</p>
+                        <p><strong>Email:</strong> s.josephthejust@gmail.com</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>Principal's Office</h3>
+                        <p><strong>Principal:</strong> Mr. John Chrysostom Agaba</p>
+                        <p><strong>Deputy Principal:</strong> Rebecca Tibiwa</p>
+                        <p><strong>Director of Studies:</strong> Denis Kwikiriza</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>Academic Department</h3>
+                        <p><strong>Email:</strong> academics@stjv.edu</p>
+                        <p><strong>UNEB Centre Number:</strong> U3812</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>Office Hours</h3>
+                        <p><strong>Monday - Friday:</strong> 8:00 AM - 4:30 PM</p>
+                        <p><strong>Saturday:</strong> 9:00 AM - 1:00 PM</p>
+                        <p><strong>Sunday & Public Holidays:</strong> Closed</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>Follow Us</h3>
+                        <div class="social-links-contact">
+                            <a href="https://facebook.com" target="_blank">Facebook</a>
+                            <a href="https://twitter.com" target="_blank">Twitter</a>
+                            <a href="https://instagram.com" target="_blank">Instagram</a>
+                            <a href="https://youtube.com" target="_blank">YouTube</a>
+                            <a href="#" class="social-link">TikTok</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" method="POST" action="#">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">-- Select Subject --</option>
+                                <option value="admission">Admission Inquiry</option>
+                                <option value="program">Program Information</option>
+                                <option value="fees">Fees & Payment</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                    <p style="margin-top: 15px; font-size: 0.9em; color: #666;">* Required fields</p>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="content-section" style="margin-top: 40px;">
+                <h2>Location Map</h2>
+                <p>Find us in Nyamityobora, Uganda</p>
+                <div class="map-placeholder">
+                    <p>Map would be embedded here (Google Maps embed)</p>
+                    <p style="font-size: 0.9em; margin-top: 10px;">Nyamityobora, Kampala, Uganda</p>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="content-section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq">
+                    <div class="faq-item">
+                        <h3>What are your office hours?</h3>
+                        <p>We are open Monday to Friday from 8:00 AM to 4:30 PM, and Saturday from 9:00 AM to 1:00 PM.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How can I apply for admission?</h3>
+                        <p>You can visit our admissions office, complete the application form, and submit the required documents. See the Admissions page for detailed requirements.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are there scholarships available?</h3>
+                        <p>Yes, we offer merit-based, need-based, and skills-based scholarships. Contact the admissions office for more details.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What programs do you offer?</h3>
+                        <p>We offer 9+ vocational programs including Automotive Technology, Welding, Electrical Installation, IT, Hospitality, Business Studies, and more.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you provide student accommodation?</h3>
+                        <p>Yes, we have hostel facilities available for students. Accommodation fees are optional and separate from tuition.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What is the program duration?</h3>
+                        <p>Most programs are 3 years long, with some specialized programs being 2-3 years. Check the Programs page for specifics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>St Joseph's Vocational Secondary School - Nyamityobora, offering quality vocational education since 2010.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: s.josephthejust@gmail.com</p>
+                    <p>Phone: +256 704 050 747</p>
+                    <p>Location: Nyamityobora, Mbarara, Uganda</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">TikTok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> St Joseph's Vocational Secondary School Nyamityobora. All rights reserved.</p>
+                <p class="footer-datetime" id="footerDateTime"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
