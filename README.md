@@ -194,8 +194,8 @@ This website template is provided for St Joseph's Vocational Secondary School.
 ## Contact
 
 **St Joseph's Vocational Secondary School**
-- Email: info@stjv.edu
-- Phone: +256 700 000 000
+- Email: s.josephthejust@gmail.com
+- Phone: +256 704 050 747
 - Location: Nyamityobora, Uganda
 
 ---
